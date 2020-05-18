@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi", "TestApi\TestApi.csproj", "{FE98E6BF-1ABC-40CC-A88D-39FBEE923856}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{0394919C-6C12-457E-80C6-19C2DE07F01B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{34CC469B-D0E0-4BFD-989D-1F2C4298C992}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE98E6BF-1ABC-40CC-A88D-39FBEE923856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE98E6BF-1ABC-40CC-A88D-39FBEE923856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE98E6BF-1ABC-40CC-A88D-39FBEE923856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE98E6BF-1ABC-40CC-A88D-39FBEE923856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0394919C-6C12-457E-80C6-19C2DE07F01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0394919C-6C12-457E-80C6-19C2DE07F01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0394919C-6C12-457E-80C6-19C2DE07F01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0394919C-6C12-457E-80C6-19C2DE07F01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34CC469B-D0E0-4BFD-989D-1F2C4298C992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CC469B-D0E0-4BFD-989D-1F2C4298C992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CC469B-D0E0-4BFD-989D-1F2C4298C992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CC469B-D0E0-4BFD-989D-1F2C4298C992}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5063DA1-8C27-475D-BE8C-35A0F7D7DA40}
+	EndGlobalSection
+EndGlobal
